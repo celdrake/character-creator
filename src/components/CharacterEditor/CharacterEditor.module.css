@@ -1,7 +1,18 @@
 .characterEditor {
   padding-top: 128px;
   padding-bottom: 64px;
+  position: relative;
+}
 
+.maxWidthWrapper::before {
+  content: '';
+  position: absolute;
+  top: 40%;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background: hsl(195deg, 20%, 86%);
+  z-index: -1;
 }
 
 .maxWidthWrapper {
