@@ -47,4 +47,14 @@
 
 .controlColumn {
   width: 50%;
+
+
+}
+
+@media (max-width: 600px) {
+    .controlColumn {
+        width: max-content;
+      display: flex;
+      /*background: red;*/
+    }
 }
