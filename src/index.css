@@ -16,6 +16,15 @@ body {
   box-sizing: border-box;
 }
 
+a {
+  color: white;
+}
+a:hover {
+  color: white;
+  position: relative;
+  top: -1px;
+}
+
 /*
   A utility class to totally remove something from the screen,
   while still keeping it available for screen-readers.
